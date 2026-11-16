@@ -9,7 +9,7 @@ Each to-do is one PR unless marked otherwise. Do them in order. For any to-do th
 Install the emulator, cross-compiler and debugger:
 
 ```
-sudo apt install qemu-system-misc gcc-riscv64-unknown-elf gdb-multiarch
+sudo apt install qemu-system-riscv gcc-riscv64-unknown-elf gdb-multiarch
 ```
 
 Check that `qemu-system-riscv64 --version` and `riscv64-unknown-elf-gcc --version` both answer.
